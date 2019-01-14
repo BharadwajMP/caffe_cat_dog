@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.1)
+project(dog_cat)
+add_definitions(-DBOOST_ERROR_CODE_HEADER_ONLY)
+#find_package(Boost 1.58.0 REQUIRED COMPONENTS system filesystem)
+set (CMAKE_CXX_STANDARD 11)
+set(BOOST_FS "${BOOST_LATEST_BIN_DIR}/libboost_filesystem.so")
+#set(BOOST_LIBRARYDIR "/usr/lib/x86_64-linux-gnu/")
+if(NOT CMAKE_BUILD_TYPE)
+  set(CMAKE_BUILD_TYPE Release)
+endif()
+
+set(CMAKE_CXX_FLAGS "-Wall -Wextra")
+set(CMAKE_CXX_FLAGS_DEBUG "-g")
+set(CMAKE_CXX_FLAGS_RELEASE "-O3")
+
+find_package(Caffe REQUIRED)
+find_package(OpenCV REQUIRED)
+
+include_directories(${Caffe_INCLUDE_DIRS} ${Boost_INCLUDE_DIRS})
+link_directories(${Boost_LIBRARY_DIRS})
+add_executable(predict predict.cpp)
+target_link_libraries(predict ${Caffe_LIBRARIES} ${Boost_LIBRARIES})
