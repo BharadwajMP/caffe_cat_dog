@@ -65,10 +65,13 @@ CMakeFiles/predict.dir/predict.cpp.o: /usr/local/cuda/include/vector_types.h
 CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/blob.hpp
 CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/caffe.hpp
 CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/common.hpp
+CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/data_transformer.hpp
 CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/filler.hpp
 CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/internal_thread.hpp
 CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/layer.hpp
 CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/layer_factory.hpp
+CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/layers/base_data_layer.hpp
+CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/layers/memory_data_layer.hpp
 CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/net.hpp
 CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/parallel.hpp
 CMakeFiles/predict.dir/predict.cpp.o: /usr/local/include/caffe/proto/caffe.pb.h

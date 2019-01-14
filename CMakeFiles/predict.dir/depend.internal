@@ -66,10 +66,13 @@ CMakeFiles/predict.dir/predict.cpp.o
  /usr/local/include/caffe/blob.hpp
  /usr/local/include/caffe/caffe.hpp
  /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/data_transformer.hpp
  /usr/local/include/caffe/filler.hpp
  /usr/local/include/caffe/internal_thread.hpp
  /usr/local/include/caffe/layer.hpp
  /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/base_data_layer.hpp
+ /usr/local/include/caffe/layers/memory_data_layer.hpp
  /usr/local/include/caffe/net.hpp
  /usr/local/include/caffe/parallel.hpp
  /usr/local/include/caffe/proto/caffe.pb.h

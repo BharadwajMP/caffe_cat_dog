@@ -11,6 +11,10 @@ caffe/caffe.hpp
 -
 caffe/util/io.hpp
 -
+caffe/blob.hpp
+-
+/usr/local/include/caffe/layers/memory_data_layer.hpp
+-
 
 /usr/include/atlas/cblas.h
 
@@ -530,6 +534,16 @@ vector
 caffe/util/device_alternate.hpp
 /usr/local/include/caffe/caffe/util/device_alternate.hpp
 
+/usr/local/include/caffe/data_transformer.hpp
+vector
+-
+caffe/blob.hpp
+/usr/local/include/caffe/caffe/blob.hpp
+caffe/common.hpp
+/usr/local/include/caffe/caffe/common.hpp
+caffe/proto/caffe.pb.h
+/usr/local/include/caffe/caffe/proto/caffe.pb.h
+
 /usr/local/include/caffe/filler.hpp
 string
 -
@@ -577,6 +591,34 @@ caffe/layer.hpp
 /usr/local/include/caffe/caffe/layer.hpp
 caffe/proto/caffe.pb.h
 /usr/local/include/caffe/caffe/proto/caffe.pb.h
+
+/usr/local/include/caffe/layers/base_data_layer.hpp
+vector
+-
+caffe/blob.hpp
+/usr/local/include/caffe/layers/caffe/blob.hpp
+caffe/data_transformer.hpp
+/usr/local/include/caffe/layers/caffe/data_transformer.hpp
+caffe/internal_thread.hpp
+/usr/local/include/caffe/layers/caffe/internal_thread.hpp
+caffe/layer.hpp
+/usr/local/include/caffe/layers/caffe/layer.hpp
+caffe/proto/caffe.pb.h
+/usr/local/include/caffe/layers/caffe/proto/caffe.pb.h
+caffe/util/blocking_queue.hpp
+/usr/local/include/caffe/layers/caffe/util/blocking_queue.hpp
+
+/usr/local/include/caffe/layers/memory_data_layer.hpp
+vector
+-
+caffe/blob.hpp
+/usr/local/include/caffe/layers/caffe/blob.hpp
+caffe/layer.hpp
+/usr/local/include/caffe/layers/caffe/layer.hpp
+caffe/proto/caffe.pb.h
+/usr/local/include/caffe/layers/caffe/proto/caffe.pb.h
+caffe/layers/base_data_layer.hpp
+/usr/local/include/caffe/layers/caffe/layers/base_data_layer.hpp
 
 /usr/local/include/caffe/net.hpp
 map
